@@ -1,8 +1,12 @@
-# AURELIA Build Notes
+# AURELIA V2 — Release Notes
 
-## V1 — Adapted Reference Build
-- Converted the uploaded reference pharmacy architecture into a home-fragrance storefront.
-- Added local AURELIA assets and brand identity.
-- Added 16 unique product visuals.
-- Added 8 collection pages and core support pages.
-- Added client-side bag, filtering, saved items and responsive navigation.
+## Image composition fix
+
+The V2 update removes embedded lettering from visual assets so the storefront does not show duplicated or misplaced typography inside images. Hero messaging is rendered as HTML over the image instead.
+
+## Validation
+
+- SVG assets scanned for `<text>` elements: none remain.
+- Local image paths retained.
+- Website structure preserved.
+- Support contact preserved.

@@ -1,8 +1,10 @@
-# Visual QA
+# AURELIA V2 — Visual QA
 
-- Product images use a square 800×800 composition.
-- Cards use `object-fit: contain` with internal padding.
-- Product images are unique by filename and product.
-- Hero artwork is separate from card imagery.
-- Logo is local at `assets/images/branding/aurelia-logo.png`.
-- No pharmacy-specific asset references remain in the HTML/CSS/JS.
+- [x] Hero image has no embedded lettering
+- [x] Hero headline is HTML content
+- [x] Category artwork has no embedded lettering
+- [x] Product artwork has no embedded lettering
+- [x] Product/category titles remain outside images
+- [x] Local assets remain referenced by relative paths
+- [x] Support contact remains visible
+- [x] Responsive structure preserved
